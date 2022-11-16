@@ -1,0 +1,144 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 100%;
+    max-width: 1280px;
+    margin: auto;
+}
+
+.back{
+    width: 100%;
+    background-color: grey;
+    margin: auto;
+}
+
+.navbar{
+    font-size: 32px;
+    text-align: center;
+}
+
+
+
+/* .navbar h4{
+    background-color: rgb(234, 166, 115);
+    height: 30px;
+    text-align: center;
+    width: 1100px;
+    margin: 0;
+    border-radius: 5px;
+} */
+
+.navbar button{
+    background-color: rgb(92, 117, 229);
+    border: none;
+    height: 40px;
+    /* align-items: center;
+    text-align: center; */
+    border-radius: 5px;
+    width: 110px;
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+  }
+  header .logo {
+    background-color: aqua;
+    width: 15%;
+    margin: 5px;
+  }
+  header .button {
+    background-color: rgba(221, 91, 91, 0.459);
+    width: 15%;
+    margin: 5px;
+    background-color: rgb(92, 117, 229);
+    border: none;
+    height: 40px;
+    /* align-items: center;
+    text-align: center; */
+    border-radius: 5px;
+    width: 110px;
+  }
+  header .menu {
+    background-color: bisque;
+    width: 70%;
+    margin: 5px;
+  }
+  
+  @media screen and (max-width: 480px) {
+    header .logo {
+      width: 50%;
+    }
+    header .button {
+      width: 50%;
+    }
+    header {
+      flex-wrap: wrap;
+    }
+    header .menu {
+      background-color: bisque;
+      width: 100%;
+      order: 1;
+    }
+  }
+
+/* 
+.logo img{
+    width: 80px;
+    height: 80px;
+} */
+
+/* .logo {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+} */
+
+/* .section{
+    background-color: grey;
+    height: 100%;
+    width: 70%;
+    margin-top: 5px;
+    margin-left: 5px;
+} */
+
+/* .main{
+    display: flex;
+} */
+
+.primary{
+    background-color: grey;
+    height: 100%;
+    width: 30%;
+    margin-top: 5px;
+}
+
+.links img{
+    width: 100px;
+}
+
+.link a{
+    text-decoration: none;
+    color: aliceblue;
+    display: block;
+}
+/* 
+.north .img{
+    background-color: aquamarine;
+    width: 80px;
+    margin-left: 10px;
+    align-items: center;
+    border-radius: 5px;
+    text-align: center;
+} */
+
+/* .north .img img{
+    width: 60px;
+    background-color: aqua;
+} */
+

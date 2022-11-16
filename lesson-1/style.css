@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.button {
+  width: 300px;
+  height: 100px;
+  border: none;
+  border-radius: 30px;
+  background-color: aqua;
+  margin: 20px;
+  font-size: 30px;
+  color: gray;
+  transition: background-color 2s;
+  transition: height 1s, width 1s;
+}
+
+.button:hover {
+  background-color: rgb(10, 121, 121);
+  color: rgb(148, 233, 156);
+  width: 80px;
+  height: 60px;
+  transition: height 1s, width 1s;
+  opacity: 0.7;
+
+  /* transition: background-color 2s; */
+  cursor: pointer;
+  border-radius: 10px;
+  font-size: 14px;
+}
+
+.button:active {
+  background-color: rgb(254, 0, 0);
+  width: 500px;
+  height: 200px;
+  font-size: 26px;
+  opacity: 0.9;
+  color: aquamarine;
+}

@@ -1,0 +1,21 @@
+body{
+    box-sizing: border-box;
+}
+
+form{
+    margin: 10px;
+}
+
+form input{
+    display: block;
+    margin: 15px;
+}
+
+.sex{
+    display: flex;
+    /* margin: 50px; */
+}
+
+.sex label{
+    padding: 20px;
+}
