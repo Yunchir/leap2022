@@ -32,26 +32,19 @@ body{
     border-radius: 5px;
 } */
 
-.navbar button{
-    background-color: rgb(92, 117, 229);
-    border: none;
-    height: 40px;
-    /* align-items: center;
-    text-align: center; */
-    border-radius: 5px;
-    width: 110px;
-}
-
-
 header {
     display: flex;
     justify-content: space-between;
   }
+
   header .logo {
     background-color: aqua;
     width: 15%;
     margin: 5px;
+    text-align: center;
+    text-align: center;
   }
+
   header .button {
     background-color: rgba(221, 91, 91, 0.459);
     width: 15%;
@@ -59,11 +52,10 @@ header {
     background-color: rgb(92, 117, 229);
     border: none;
     height: 40px;
-    /* align-items: center;
-    text-align: center; */
     border-radius: 5px;
     width: 110px;
   }
+
   header .menu {
     background-color: bisque;
     width: 70%;
@@ -87,29 +79,28 @@ header {
     }
   }
 
-/* 
 .logo img{
     width: 80px;
     height: 80px;
-} */
+}
 
-/* .logo {
+.logo {
     display: flex;
     align-items: center;
     gap: 5px;
-} */
+}
 
-/* .section{
+.section{
     background-color: grey;
     height: 100%;
     width: 70%;
     margin-top: 5px;
     margin-left: 5px;
-} */
+}
 
-/* .main{
+.main{
     display: flex;
-} */
+}
 
 .primary{
     background-color: grey;
@@ -118,16 +109,27 @@ header {
     margin-top: 5px;
 }
 
+.links {
+  align-items: center;
+  text-align: center;
+}
+
 .links img{
-    width: 100px;
+    width: 200px;
+    /* height: 200px; */
 }
 
 .link a{
     text-decoration: none;
     color: aliceblue;
     display: block;
+    font-size: 24px;
 }
-/* 
+
+.north{
+  width: 10%;
+}
+
 .north .img{
     background-color: aquamarine;
     width: 80px;
@@ -135,10 +137,32 @@ header {
     align-items: center;
     border-radius: 5px;
     text-align: center;
-} */
+}
 
-/* .north .img img{
+.north .img img{
     width: 60px;
     background-color: aqua;
-} */
+    border-radius: 5px;
+}
 
+#north{
+  display: flex;
+}
+
+.rigth{
+  display: flex;
+  width: 70%;
+  background-color: bisque;
+}
+
+.rigth img{
+  width: 60%;
+  height: 50%;
+  padding: 20px;
+  border-radius: 10px;
+  float: left;
+}
+
+.rigth p{
+  float: right;
+}
