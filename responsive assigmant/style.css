@@ -27,8 +27,10 @@ header {
   }
 
   header .logo {
-    background-color: aqua;
-    width: 15%;
+    height: 45px;
+    width: 100px;
+    background-color: bisque;
+    border-radius: 5px;
     margin: 5px;
     text-align: center;
     text-align: center;
@@ -45,16 +47,25 @@ header {
     width: 110px;
   }
 
+  .settings .button{
+    border-radius: none;
+    background-color: #2196F3;
+    border-radius: 5px;
+  }
+  .settings .left{
+    justify-content: space-between;
+    /* display: inline; */
+    display: inline-block;
+
+  }
+
   header .menu {
     background-color: bisque;
     width: 70%;
     margin: 5px;
   }
-  
+
   @media screen and (max-width: 500px) {
-    header .logo {
-      width: 47%;
-    }
     header .button {
       width: 47%;
     }
@@ -126,6 +137,7 @@ header {
     width: 60px;
     background-color: aqua;
     border-radius: 5px;
+    height: 40px;
 }
 
 #north{
@@ -235,7 +247,7 @@ input:checked + .slider:before {
     float: none;
   }
   .rigth img{
-    width: 90%;
+    width: 100%;
   }
   .links{
     display: flex;
