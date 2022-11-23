@@ -12,9 +12,9 @@
     />
   </head>
   <body>
-    <nav class="navbar navbar-expand bg-black">
-      <div class="container-fluid d-wrap">
-        <ul class="navbar-nav me-auto text-light">
+    <nav class="navbar navbar-expand bg-black justify-content-between d-flex">
+      <div class="container-fluid flex-wrap flex-md-nowrap">
+        <ul class="navbar-nav me-auto text-light flex-wrap">
           <li class="nav-item">
             <a class="nav-link active text-light" aria-current="page" href="#"
               >Home</a
@@ -35,23 +35,26 @@
             <a class="nav-link text-light" href="#">About</a>
           </li>
         </ul>
-        <form class="d-flex align-items-center" role="search">
-          <input
-            class="form-control w-50"
-            type="search"
-            placeholder="Search"
-            aria-label="Search"
-          />
-          <div class="btn-group gap-3 align-self-center">
-            <button
-              class="btn btn-outline-black bg-light rounded-3"
-              type="submit"
-            >
-              Login
-            </button>
-            <button class="btn btn-warning rounded-3" type="submit">
-              Sing-up
-            </button>
+
+        <form class="align-items-center flex-wrap flex-md-wrap" role="search">
+          <div class="d-flex">
+            <input
+              class="form-control"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <div class="btn-group gap-3 align-self-center">
+              <button
+                class="btn btn-outline-black bg-light rounded-3 flex-wrap flex-sm-wrap"
+                type="submit"
+              >
+                Login
+              </button>
+              <button class="btn btn-warning rounded-3" type="submit">
+                Sing-up
+              </button>
+            </div>
           </div>
         </form>
       </div>
