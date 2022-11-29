@@ -47,7 +47,7 @@
 //   age1 = "54";
 
 // let myAge = "19";
-// let yourAge = "20";
+// let yourAge = "myAge";
 // console.log(myAge);
 
 //Gurvaljingiin perimetriig oloh
@@ -124,9 +124,11 @@ alert(
     circleS
 );
 
-// Baby shark
-let baby = 1;
-console.log(baby);
+// 12Baby shark
+let baby = babyshark;
+console.log(
+    "\n" + baby + " doo " + "doo"
+);
 let babyshark = 2;
 console.log(babyshark);
 let mammy = 3;
