@@ -123,31 +123,3 @@ alert(
     "\nДугуйн талбай нь " +
     circleS
 );
-
-// 12Baby shark
-let baby = babyshark;
-console.log(
-    "\n" + baby + " doo " + "doo"
-);
-let babyshark = 2;
-console.log(babyshark);
-let mammy = 3;
-console.log(mammy);
-let mammyshark = 4;
-console.log(mammyshark);
-let daddy = 5;
-console.log(daddy);
-let daddyshark = 6;
-console.log(daddyshark);
-let grandma = 7;
-console.log(grandma);
-let grandmashark = 8;
-console.log(grandmashark);
-let grandpa = 9;
-console.log(grandpa);
-let grandpasahrk = 10;
-console.log(grandpasahrk);
-let runaway = 11;
-console.log(runaway);
-let runawayshark = 12;
-console.log(runawayshark);
